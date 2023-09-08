@@ -3,30 +3,28 @@ body {
 }
 .bookContainer {
     display: flex;
-    flex-wrap: wrap; /* Enable wrapping to start a new row */
-    justify-content: space-around; /* Space between sub-containers */
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-/* Add styles for the sub-container */
 .bookSubContainer {
-    width: calc(45% - 10px); /* 50% width with spacing between */
-    margin: 20px 0px; /* Margin to separate sub-containers */
-    background-color: #f0f0f0; /* Background color for the container */
-    padding: 20px; /* Adjust padding as needed */
-    border-radius: 10px; /* Adjust border-radius for the neumorphic effect */
+    width: calc(45% - 10px);
+    margin: 20px 0px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4),
-        /* Darker shadow */ -5px -5px 15px rgba(0, 0, 0, 0.4); /* Lighter shadow */
-    font-family: 'Poppins', sans-serif; /* Use the imported font */
-    padding: 10px; /* Padding inside sub-containers */
-    border-radius: 5px; /* Rounded corners for sub-containers */
-    box-sizing: border-box; /* Ensure padding and border don't increase width */
-    display: flex; /* Enable flex layout for sub-containers */
-    flex-direction: column; /* Stack elements vertically within sub-containers */
-    align-items: center; /* Center-align elements horizontally */
-    text-align: center; /* Center-align text horizontally */
+        -5px -5px 15px rgba(0, 0, 0, 0.4);
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-/* Add styles for book cover images */
 .bookCover {
     max-width: 40%;
     border: 5px solid black;

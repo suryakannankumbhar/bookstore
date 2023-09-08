@@ -6,13 +6,13 @@
 
 body {
     display: flex;
-    justify-content: center; /* Horizontal centering */
-    align-items: center; /* Vertical centering */
-    height: 100vh; /* 100% of the viewport height */
-    margin: 0; /* Remove default body margin */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     background-color: #f6db35;
 }
 
 .footerTitle {
-    text-align: center; /* Horizontal centering within the div */
+    text-align: center;
 }
