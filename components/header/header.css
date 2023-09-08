@@ -13,6 +13,18 @@ body {
     background-color: #f6db35;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+
 .headerTitle {
     text-align: center;
     font-weight: 900;
